@@ -1,0 +1,12 @@
+variable "gitlab_runner_count" {}
+variable "gitlab_runner_url" {}
+variable "gitlab_runner_token" {}
+variable "gitlab_runner_tags" {}
+variable "gitlab_runner_docker_image" {}
+variable "gitlab_runner_docker_registry_url" {}
+variable "gitlab_runner_docker_registry_auth" {}
+variable "vpc_id" {}
+variable "security_group_id" {}
+variable "aws_access_key" {}
+variable "aws_secret_key" {}
+variable "ssh_key_name" {}
